@@ -1,0 +1,23 @@
+.custom-nav .nav-link {
+    color: white; /* Default color */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .custom-nav .nav-link:hover {
+    color: #0d6efd; /* Highlight text color (Bootstrap Primary Color) */
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle background highlight */
+    border-radius: 5px; /* Rounded corners for the background */
+  }
+  
+  .hover-effect:hover {
+    color: #0d6efd;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  body {
+    background-image: url("https://media.istockphoto.com/id/2161298305/photo/big-data-technology-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=feN-86ivxpgpl5lu-57AIjOt2tVgn84D98mZPcHmyQw=");
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repetition */
+  }
+  
